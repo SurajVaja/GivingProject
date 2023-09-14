@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;  
+}
+/* Full Container Style  */
+.container {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 4fr 1.5fr;
+    grid-auto-flow: row;
+    background-image: url(collagee.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+/* Header Style  */
+.header { 
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(235, 199, 20);
+    opacity: 0.8;
+}
+#logo{
+    font-size: 55px;
+    font-weight: bold;
+    margin-right: 120px;
+    color:rgb(21, 80, 227);
+}
+#menu{
+    display: flex;
+    gap: 35px;
+    margin: 2px 35px;  
+}
+#menu> a {
+    text-decoration: none;
+    color:rgb(21, 80, 227);
+    font-size: 30px;
+}
+a:hover{
+    background-color: black;
+}
+/* Main scetion Style  */
+.main { 
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    padding-right: 80px;
+    font-size: 23px;
+    color:rgb(21, 80, 227);
+}
+#btn{
+    margin-right: 35px;
+    margin-top: 25px;
+}
+
+/* Footer Style  */
+.footer { 
+    display: flex;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;    
+}
+.foot > img{
+width: 100px;
+height: 100px;
+}
+.foot > p{
+    color:rgb(21, 80, 227);
+    text-align: center;
+    font-weight: bold;
+}
+  
+  
